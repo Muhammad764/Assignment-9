@@ -2,8 +2,9 @@ import React from 'react';
 
 const About = () => {
     return (
-        <div>
-            <h1>notun ki bolbo r</h1>
+        <div className='text-5xl font-sans font-semibold mt-10'>
+            <h1 className='text-sky-400'>Hi</h1>
+            <p>I'm Muhammad Farhad</p>
         </div>
     );
 };
