@@ -1,14 +1,14 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
     return (
         <div className='text-lg font-medium'>
-            <Link className='px-5' to='/'>Home</Link >
-            <Link className='px-5' to='/review'>Review</Link>
-            <Link className='px-5' to='/dashboard'>Dashboard</Link>
-            <Link className='px-5' to='/blogs'>Blogs</Link>
-            <Link  to='/about'>About</Link>
+            <NavLink className='px-5 {({ isActive }) => (isActive ? "text-cyan-500" : "text-black")}' to='/'>Home</NavLink >
+            <NavLink className='px-5 {({ isActive }) => (isActive ? "text-cyan-500" : "text-black")}' to='/review'>Review</NavLink>
+            <NavLink className='px-5' to='/dashboard'>Dashboard</NavLink>
+            <NavLink className='px-5' to='/blogs'>Blogs</NavLink>
+            <NavLink  to='/about'>About</NavLink>
         </div>
     );
 };

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import Card from '../Card/Card';
 import images from '../Image/headphone.png'
 import './Home.css'
@@ -16,12 +16,12 @@ const Home = () => {
         <div >
             <div className='flex place-content-around mt-10'>
                 <div>
-                <h1 className='text-4xl font-bold py-8 '>Your Next Headphone</h1>
+                <h1 className='text-4xl font-bold py-8 mt-10'>Your Next Headphone</h1>
                 <h2 className='text-4xl font-bold'>Get The Best</h2>
                 <p className='text-base py-3'>We made quality products.<br/>Get your dream headphone and enjoy every moment.<br/>We Believe in quality product  </p>
                 <button className='bg-green-500 py-2 rounded shadow text-white font-medium hover:bg-emerald-700 px-3 mt-5'>See Details</button>
             </div>
-            <div className='img'>
+            <div className='img mt-4'>
                 <img src={images} alt="" />
             </div>
             </div>
@@ -36,7 +36,7 @@ const Home = () => {
                </div>
 
                 <div className='mb-20'>
-                     <Link className='bg-indigo-600 py-2 rounded shadow text-white font-medium hover:bg-violet-700 px-8 mb-5' to="/review">See All Reviews</Link>
+                     <NavLink className='bg-indigo-600 py-2 rounded shadow text-white font-medium hover:bg-violet-700 px-8 mb-5' to="/review">See All Reviews</NavLink>
                </div>
               
             </div>
