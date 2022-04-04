@@ -15,7 +15,7 @@ const Home = () => {
     return (
         <div >
             <div className='flex place-content-around mt-10'>
-                <div>
+             <div>
                 <h1 className='text-4xl font-bold py-8 mt-10'>Your Next Headphone</h1>
                 <h2 className='text-4xl font-bold'>Get The Best</h2>
                 <p className='text-base py-3'>We made quality products.<br/>Get your dream headphone and enjoy every moment.<br/>We Believe in quality product  </p>
@@ -23,8 +23,8 @@ const Home = () => {
             </div>
             <div className='img mt-4'>
                 <img src={images} alt="" />
-            </div>
-            </div>
+            </div> 
+          </div>
 
             <div>
                 <p className='text-4xl font-bold mt-24 mb-20'>Customer Reviews</p>
@@ -38,9 +38,7 @@ const Home = () => {
                 <div className='mb-20'>
                      <NavLink className='bg-indigo-600 py-2 rounded shadow text-white font-medium hover:bg-violet-700 px-8 mb-5' to="/review">See All Reviews</NavLink>
                </div>
-              
             </div>
-          
         </div>
         
     );
