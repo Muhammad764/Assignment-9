@@ -1,6 +1,11 @@
-### Tech-Degitize
+### `Tech-Degitize`
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Tech-Degitize-Link](https://scintillating-jalebi-c02cab.netlify.app/)
+
+* Using Chart
+* Creating Review
+* Writing some Q&A 
+* In home part slice review  
 
 ## Available Scripts
 
