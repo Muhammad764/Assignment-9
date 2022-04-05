@@ -1,6 +1,6 @@
 ### `Tech-Degitize`
 
-[Tech-Degitize-Link](https://scintillating-jalebi-c02cab.netlify.app/)
+[Tech-Degitize-Link](https://scintillating-jalebi-c02cab.netlify.app/)[https://scintillating-jalebi-c02cab.netlify.app/]
 
 * Using Chart
 * Creating Review
